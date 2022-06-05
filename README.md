@@ -11,4 +11,4 @@ This responsitory is my journey through learning COBOL.
 
 ## How I'm Learning COBOL
 I'm following this video: [COBOL Tutorial : Learn COBOL in One Video](https://www.youtube.com/watch?v=TBs7HXI76yU)
-* Currently at 0:01:37
+* Currently at 0:07:27

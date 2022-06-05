@@ -8,3 +8,7 @@ This responsitory is my journey through learning COBOL.
 * Reading files ([here](https://github.com/thesixtium/LearningCOBOL/blob/main/ReadingFiles.cbl))
 * Basic Math ([here](https://github.com/thesixtium/LearningCOBOL/blob/main/Calculator.cbl))
 * File Structure ([here](https://github.com/thesixtium/LearningCOBOL/blob/main/ReadingFiles.cbl)
+
+## How I'm Learning COBOL
+I'm following this video: [COBOL Tutorial : Learn COBOL in One Video](https://www.youtube.com/watch?v=TBs7HXI76yU)
+* Currently at 0:01:37

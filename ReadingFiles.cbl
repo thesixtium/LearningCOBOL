@@ -10,7 +10,7 @@
            INPUT-OUTPUT SECTION.
                FILE-CONTROL.
                SELECT STUDENT ASSIGN TO "C:/Users/Sixtium/Documents/Lear
-      -            "ning/COBOL/ReadingFiles.txt"
+      -            "ning/COBOL/LearningCOBOL/ReadingFiles.txt"
                ORGANIZATION IS LINE SEQUENTIAL.
 
        DATA DIVISION.

@@ -25,9 +25,27 @@
            02 SSGroup  PIC 99.
            02 SSSerial PIC 9999.
            *> Define composite variable with 3 numerics
+       01 PIValue CONSTANT AS 3.14.
+       *> ZEROS ZERO 0
+       *> SPACE SPACES
+       *> HIGH-VALUES HIGH-VALUE
+       *> LOW_VALUES LOW-VALUE
 
        PROCEDURE DIVISION.
-       MAIN-PROCEDURE.
-            DISPLAY "Hello world"
-            STOP RUN.
-       END PROGRAM coboltut.
+       DISPLAY "What is your name ".
+       ACCEPT UserName.
+       DISPLAY "Hello " UserName.
+
+       MOVE ZERO TO UserName.
+       DISPLAY UserName.
+
+       DISPLAY "Enter 2 values to sum "
+       ACCEPT Num1
+       ACCEPT Num2
+       COMPUTE Total = Num1 + Num2
+       DISPLAY Num1 " + " Num2 " = " Total
+       DISPLAY "Enter your SSN"
+       ACCEPT SSNum
+       DISPLAY "Area " SSArea
+
+       STOP RUN.

@@ -37,4 +37,32 @@
        DISPLAY CustName
        DISPLAY MOB "/" DOB "/" YOB
 
+       MOVE ZERO TO SampleData
+       DISPLAY SampleData
+       MOVE SPACE TO SampleData
+       DISPLAY SampleData
+       MOVE HIGH-VALUE TO SampleData
+       DISPLAY SampleData
+       MOVE LOW-VALUE TO SampleData
+       DISPLAY SampleData
+       MOVE QUOTE TO SampleData
+       DISPLAY SampleData
+       MOVE ALL "3" TO SampleData
+       DISPLAY SampleData
+
+       ADD Num1 TO Num2 GIVING Ans
+       DISPLAY Ans
+       ADD Num1, Num2, Num3 GIVING Ans
+       DISPLAY Ans
+       SUBTRACT Num1 FROM Num2 GIVING Ans
+       DISPLAY Ans
+       MULTIPLY Num1 BY Num2 GIVING Ans
+       DISPLAY Ans
+       DIVIDE Num1 BY Num2 GIVING Ans
+       DISPLAY Ans
+       DIVIDE Num1 BY Num2 GIVING Ans REMAINDER Rem
+       DISPLAY Ans
+       COMPUTE Ans = Num1 + Num2
+       DISPLAY Ans
+
        STOP RUN.
